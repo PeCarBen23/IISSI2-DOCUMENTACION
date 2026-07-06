@@ -1,0 +1,9 @@
+{
+    "getAll": {
+        "route": "/users",
+        "method": "GET",
+        "sql": "SELECT * FROM Users",
+        "auth_required": false,
+        "description": "Gets all Users"
+    }
+}

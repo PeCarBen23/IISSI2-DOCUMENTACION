@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="images/favicon.ico" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/libs/axios.min.js"></script>
+    <script src="js/utils/include.js"></script>
+
+    <script src="js/header.js" type="module"></script>
+
+    <script src="js/userPage.js" type="module"></script>
+
+    <title>Perfil de Usuario</title>
+  </head>
+
+  <body>
+    <div id="page-header"></div>
+
+    <div class="container mt-4">
+      <div id="errors"></div>
+
+      <div id="profile-info"></div>
+
+      <h4 class="mt-4 mb-3">Hobbies</h4>
+      <div id="profile-hobbies"></div>
+
+      <h4 class="mt-4 mb-3">Comentarios</h4>
+      <div id="profile-comments"></div>
+    </div>
+
+    <script>
+      include("header.html", "#page-header");
+    </script>
+  </body>
+</html>
