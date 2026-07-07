@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="images/favicon.ico" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/libs/axios.min.js"></script>
+    <script src="js/utils/include.js"></script>
+
+    <script src="js/header.js" type="module"></script>
+    <script src="js/userPage.js" type="module"></script>
+
+    <title>Perfil de Usuario - Silence</title>
+  </head>
+
+  <body>
+    <div id="page-header"></div>
+
+    <div class="container my-4">
+      <div id="errors"></div>
+
+      <div id="user-info"></div>
+      
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <div id="user-hobbies"></div>
+        </div>
+        <div class="col-md-6">
+          <div id="user-comments"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      include("header.html", "#page-header");
+    </script>
+  </body>
+</html>
